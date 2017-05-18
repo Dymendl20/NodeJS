@@ -1,0 +1,23 @@
+{
+  "name": "npm",
+  "version": "1.0.0",
+  "description": "Mettre une petit description",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js --env Prod",
+    "start:dev": "node index.js --env Dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/automatedb/DL20.git"
+  },
+  "author": "Nicolas MORICET <nicolas.moricet@imie.fr>",
+  "license": "Beerware",
+  "bugs": {
+    "url": "https://github.com/automatedb/DL20/issues"
+  },
+  "homepage": "https://github.com/automatedb/DL20#readme",
+  "dependencies": {
+    "argparse": "^1.0.9"
+  }
+}
